@@ -1,4 +1,4 @@
-n#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     // Declare variables for marks in each subject

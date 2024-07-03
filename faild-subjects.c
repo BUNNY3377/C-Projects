@@ -65,4 +65,4 @@ int main() {
     printf("social subject faild");
     if(hindi<35)
     printf("hindi subject faild");
-}N
+}

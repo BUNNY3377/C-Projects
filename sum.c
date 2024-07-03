@@ -1,4 +1,4 @@
-1.#include<stdio.h>
+#include<stdio.h> //1.
 void main()
 {
 	int a=20,b=80,c;
@@ -8,7 +8,7 @@ void main()
 
 
 
-2.//SOURCE FOR CALUCULATER
+//2.SOURCE FOR CALUCULATER
 #include<stdio.h>
 void main()
 {
@@ -25,7 +25,7 @@ void main()
 
 
 
-3.//TO PRINT A MATETER
+//3.TO PRINT A MATETER
 #include<stdio.h>
 
 void main()
@@ -39,7 +39,7 @@ void main()
 
 
 
-4.//FLOT-SOURCE CODE
+//4.FLOT-SOURCE CODE
 #include<stdio.h>
 void main()
 
@@ -55,22 +55,22 @@ void main()
 
 
 
-5.//simple biggest
+//5.simple biggest
 #include<stdio.h>
 void main()
 {
-	int a=40,b=10
+	int a=40,b=10;
     if(a>b)
     	printf("\n a is big %d",a);
 
 }
 
 
-6.
+//6.
 #include<stdio.h>
 void main()
 {
-	int a=40,b=10
+	int a=40,b=10;
     if(a>b)
     	printf("\n a is big %d",a);
     
@@ -79,7 +79,7 @@ void main()
 
 
 
-7.
+//7.
 #include<stdio.h>
 void main ()
 {
@@ -91,7 +91,7 @@ void main ()
 
 
 
-8.
+//8.
 #include<stdio.h>
 void main ()
 {
@@ -103,7 +103,7 @@ void main ()
 
 
 
-9.\\to find avg
+//9.to find avg
 #include<stdio.h>
 void main()
 {
@@ -119,7 +119,7 @@ void main()
 
 
 
-10.//avg+total marks source code
+//10.avg+total marks source code
 #include<stdio.h>
 void main()
 
@@ -149,7 +149,7 @@ printf("The sum of all subjects avg=%f",avg);
 
 
 
-11//highest lowest markes code
+//11.highest lowest markes code
 #include <stdio.h>
 
 int main() {
@@ -263,16 +263,16 @@ int main() {
 
     return 0;
 
-    if(tel<35)
+    if(telugu<35)
     printf("tel subject faild");
-    if(eng<35)
+    if(english<35)
     printf("eng subject faild");
-    if(mat<35)
+    if(maths<35)
     printf("mat subject faild");
-    if(sci<35)
+    if(science<35)
     printf("sci subject faild");
-    if(soc<35)
+    if(social<35)
     printf("soc subject faild");
-    if(hin<35)
+    if(hindi<35)
     printf("hin subject faild");
 }

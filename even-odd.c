@@ -3,13 +3,13 @@
 
 void main()
 {
-    int main;
+    int num;
     system("cls");
 
     printf("\n\n enter any number : ");
-N    scanf("%d",&num);
+    scanf("%d",&num);
 
-    if(num%2==o)
+    if(num%2==0)
         printf("\n\n given number is even %d ",num);
     else
         printf("\n\n given number is odd %d ",num);
