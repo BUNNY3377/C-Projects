@@ -1,7 +1,18 @@
 #include<stdio.h>
 void main()
 {
-    int a=20,b=80,c;
-    c=a+b;
-    printf("the sum of two values are %d",c);
+    //integer data type
+    int num1 = 10;
+    short num2 = 20;
+    long num3 = 30;
+    long long num4 = 40;
+
+    //printing value
+    printf("intger data types:\n");
+    printf("int: %d\n",num1);
+    printf("short: %d\n",num2);
+    printf("long: %ld\n",num3);
+    printf("long long :%lld\n",num4);
+
+    return 0;
 }
